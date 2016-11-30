@@ -8,4 +8,4 @@ app.use(express.static(__dirname + '/../public'))
 
 console.log("Booting up to listen on " + PORT)
 
-module.exports = app.listen(PORT)
+export default app.listen(PORT)
